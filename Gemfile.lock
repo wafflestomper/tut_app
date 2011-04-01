@@ -102,6 +102,7 @@ DEPENDENCIES
   factory_girl_rails (= 1.0)
   faker (= 0.3.1)
   gravatar_image_tag
+  nokogiri
   rails (= 3.0.5)
   rspec (= 2.0.1)
   rspec-rails (= 2.0.1)
