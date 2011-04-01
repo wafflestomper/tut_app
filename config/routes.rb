@@ -1,4 +1,4 @@
-SampleApp::Application.routes.draw do
+TutApp::Application.routes.draw do
   get "users/new"
 
   match '/signup', :to => 'users#new'
