@@ -1,5 +1,6 @@
 .container {
-	width: 710px;
+	width: 800px;
+	margin: 0 auto 0 auto;
 }
 
 body {
@@ -56,7 +57,7 @@ nav {
 }
 
 nav ul {
-	margin: 0px;
+	margin: 0;
 	padding: 0;
 }
 
@@ -82,7 +83,7 @@ nav ul li a:hover {
 footer {
 	text-align: center;
 	margin-top: 10px;
-	width: 710px;
+	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -112,5 +113,29 @@ a.signup_button {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
+}
+
+/* User show page */
+
+table.profile {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+td.main {
+	width: 70%;
+	padding: 1em;
+}
+
+td.sidebar {
+ width: 30%;
+	padding: 1em;
+	vertical-align: top;
+	background: #ffc;
+}
+
+.profile img.gravatar {
+	border: 1px solid #999;
+	margin-bottom: -15px;
 }
 
