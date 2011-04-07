@@ -104,8 +104,8 @@ DEPENDENCIES
   gravatar_image_tag
   nokogiri
   rails (= 3.0.5)
-  rspec (= 2.0.1)
-  rspec-rails (= 2.0.1)
+  rspec
+  rspec-rails
   spork (= 0.8.4)
   sqlite3
   sqlite3-ruby
